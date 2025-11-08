@@ -1,0 +1,8 @@
+{
+  "name": "Selenium Grid Jenkins Demo",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [8080, 4444],
+  "postCreateCommand": "docker-compose up -d"
+}
